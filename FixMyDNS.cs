@@ -15,6 +15,11 @@ namespace FixMyDNS
     {
         public static void Main(string[] args)
         {
+            /**
+             * FixMyDNS needs administrator privileges.
+             * If the program wasn't launched with admin privileges,
+             * restart it asking for admin permissions.
+             */
             WindowsPrincipal pricipal = new WindowsPrincipal(WindowsIdentity.GetCurrent());
             bool hasAdministrativeRight = pricipal.IsInRole(WindowsBuiltInRole.Administrator);
             if (!hasAdministrativeRight)
@@ -49,6 +54,9 @@ namespace FixMyDNS
                 cmd.Start();
             }
 
+            /**
+             * Show confirmation message
+             */
             MessageBox.Show("Your DNS servers have been set to CloudFlare DNS (1.1.1.1)", "FixMyDNS", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
     }
