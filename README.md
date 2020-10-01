@@ -16,7 +16,7 @@ No configuration or user input needed, just a simple prompt for admin permission
 
 Need to download it somewhere where DNS doesn't work at all? [http://95.216.138.188/FixMyDNS.exe](http://95.216.138.188/FixMyDNS.exe)
 
-The `sha256sum` of the current release 1.0 is `4bc4e612446d8b3eddca32ae62dbbd70c0c1ee425388cb66fd9d1cf47fcdf809`.
+The `sha256sum` of the current release 1.0 is `ee9acdcfef87c60e956deed23704632e55b3ba9e07c55fb75a1bde58a927c8fe`.
 
 This repository contains the source code for the program. If you don't trust me on providing some EXE that you run with admin rights, just build it yourself - the source code is pretty simple.
 
