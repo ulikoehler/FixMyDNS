@@ -11,7 +11,7 @@ If DNS is actually the core issue of your network problems, they will most certa
 
 ## How can I use it?
 
-Download FixMyDNS.exe from TechOverflow (my website) [https://techoverflow.net/downloads/FixMyDNS.exe] and run it.
+Download FixMyDNS.exe from TechOverflow (my website) [https://techoverflow.net/downloads/FixMyDNS.exe](https://techoverflow.net/downloads/FixMyDNS.exe) and run it.
 No configuration or user input needed, just a simple prompt for admin permissions and that's it.
 
 Need to download it somewhere where DNS doesn't work at all? [http://95.216.138.188/FixMyDNS.exe](http://95.216.138.188/FixMyDNS.exe)
